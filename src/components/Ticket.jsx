@@ -10,4 +10,10 @@ function Ticket(props) {
   );
 }
 
+Ticket.propTypes = {
+  names: PropTypes.string.isRequired,
+  location: propTypes.string.isRequired,
+  issue: PropTypes.string
+};
+
 export default Ticket;
